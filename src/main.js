@@ -5,6 +5,7 @@ import { loadFonts } from './plugins/webfontloader'
 import router from './router'
 
 loadFonts()
+/* eslint-disable */
 
 createApp(App).use(router)
   .use(vuetify)
